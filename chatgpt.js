@@ -3,7 +3,7 @@ const axios = require('axios');
 let conversation = [];
 
 async function generateResponse(message) {
-  const apiKey = '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';
+  const apiKey = 'API-KEY';
   const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
   try {
